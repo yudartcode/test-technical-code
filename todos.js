@@ -1,7 +1,7 @@
 const resp = (result = "") => {
     return `
         <form action="/" method="GET">
-            <input type="number" name="value" placeholder="Input Angka">
+            <input type="number" name="value" min="0" placeholder="Input Angka">
             <br>
             <input type="submit" name="task" value="Generate Segitiga">
             <input type="submit" name="task" value="Generate Bilangan Ganjil">
